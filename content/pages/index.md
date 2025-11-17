@@ -148,31 +148,24 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - subtitle:
-    images:
-      - url: /images/Image 17.11.25. at 21.48.jpg
-        altText: Empathy logo
-        type: ImageBlock
-    motion: move-to-left
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: ImageGallerySection
-    showThumbnail: true
-    showDate: true
-    showAuthor: true
-    variant: three-col-grid
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
+  subtitle:
+  images:
+    - url: /images/Image 17.11.25. at 21.48.jpg
+      altText: Empathy logo
+      type: ImageBlock
+  motion: move-to-left
+  colors: bg-light-fg-dark
+  styles:
+    self:
+      justifyContent: center
+      padding:
+    subtitle:
+      textAlign: center
+  type: ImageGallerySection
+  showThumbnail: true
+  showDate: true
+  showAuthor: true
+  variant: three-col-grid
         justifyContent: center
     type: FeaturedPostsSection
     hoverEffect: move-up
