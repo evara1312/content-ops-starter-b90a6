@@ -30,7 +30,7 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: sources/local/presets/images/ai-technology-microchip-background-vector-digital-transformation-concept_53876-112222.avif
+      url: /images/ai-technology-microchip-background-vector-digital-transformation-concept_53876-112222.avif
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
