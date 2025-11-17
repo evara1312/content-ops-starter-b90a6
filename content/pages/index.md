@@ -1,4 +1,3 @@
----
 title: Home
 slug: /
 sections:
@@ -8,8 +7,8 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle:
-    text: >
-      Effctvly helps companies automate routine tasks and optimize business processes using artificial intelligence. Our mission is to empower clients with faster decision-making, increased productivity, and enhanced customer experiences.
+      text: >
+        Effctvly helps companies automate routine tasks and optimize business processes using artificial intelligence. Our mission is to empower clients with faster decision-making, increased productivity, and enhanced customer experiences.
     actions:
       - label: Get started
         altText: ''
@@ -44,6 +43,7 @@ sections:
           - pl-16
           - pb-16
           - pr-16
+
   - type: FeaturedItemsSection
     title:
       text: Key Benefits
@@ -57,8 +57,8 @@ sections:
       - type: FeaturedItem
         title: up to 40%
         subtitle: Time and resource savings
-        text: >-
-          I handles repetitive tasks like email responses, data entry, and basic customer queries, freeing employees to focus on growth and strategy.
+        text: >
+          It handles repetitive tasks like email responses, data entry, and basic customer queries, freeing employees to focus on growth and strategy.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
@@ -81,9 +81,11 @@ sections:
           styles:
             self:
               borderRadius: x-large
-      - title: up to 50%
+
+      - type: FeaturedItem
+        title: up to 50%
         subtitle: Improved customer experience
-        text: >-
+        text: >
           Chatbots and AI assistants provide 24/7 support and personalized interactions, increasing customer satisfaction and loyalty.
         image:
           url: /images/icon2.svg
@@ -101,12 +103,13 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: row
-            textAlign: left
             justifyContent: center
-        type: FeaturedItem
-      - title: up to 30%
+            textAlign: left
+
+      - type: FeaturedItem
+        title: up to 30%
         subtitle: Smarter data-driven decisions
-        text: >-
+        text: >
           AI analyzes sales trends, customer behavior, and market patterns, helping small businesses make faster, more accurate decisions.
         image:
           url: /images/icon3.svg
@@ -124,7 +127,7 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: row
-        type: FeaturedItem
+
     actions:
       - label: Get started
         altText: ''
@@ -141,33 +144,12 @@ sections:
     styles:
       self:
         padding:
-          - pb-16
           - pt-16
+          - pb-16
           - pl-16
           - pr-16
         justifyContent: center
-  images:
-    - url: "/images/Image 17.11.25. at 21.48.jpg"
-      altText: "Empathy logo"
-      type: ImageBlock
-  motion: move-to-left
-  colors: bg-light-fg-dark
-  styles:
-    self:
-      justifyContent: center
-      padding:
-        - pb-16
-        - pt-16
-        - pl-16
-        - pr-16
-styles:
-  self:
-    classes:
 
-subtitle:
-  textAlign: center
-
-sections:
   - type: ImageGallerySection
     showThumbnail: true
     showDate: true
@@ -180,9 +162,8 @@ sections:
   - type: FeaturedPostsSection
     hoverEffect: move-up
 
-  - type: Divider
+  - type: DividerSection
     colors: bg-light-fg-dark
-
     styles:
       self:
         padding:
@@ -190,55 +171,38 @@ sections:
           - pl-7
           - pb-7
           - pr-7
-    type: DividerSection
-  - title:
+
+  - type: GenericSection
+    title:
       text: Grow your business 10x faster
       color: text-dark
-      styles:
-        self:
-          textAlign: center
       type: TitleBlock
-    subtitle: This is a subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-      autoplay: true
-      loop: true
-      muted: true
-    badge:
-      label: Key Benefits
-      color: text-primary
       styles:
         self:
           textAlign: center
-      type: Badge
+    subtitle:
+      text: This is a subtitle
+    elementId: ''
     colors: bg-light-fg-dark
     styles:
       self:
-        flexDirection: col
         justifyContent: center
-      subtitle:
-        textAlign: center
-    type: GenericSection
+        padding:
+          - pt-16
+          - pb-16
+          - pl-16
+          - pr-16
+
+images:
+  - url: "/images/Image 17.11.25. at 21.48.jpg"
+    altText: "Empathy logo"
+    type: ImageBlock
+
+motion: move-to-left
+colors: bg-light-fg-dark
+styles:
+  self:
+    justifyContent: center
   - type: GenericSection
     title:
       text: Generic section with a video
