@@ -31,13 +31,8 @@ sections:
         type: Link
     media:
       url: /images/ai-technology-microchip-background-vector-digital-transformation-concept_53876-112222.avif
-      altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
-    badge:
-      label: This is a badge
-      color: text-primary
-      type: Badge
     elementId: ''
     colors: bg-light-fg-dark
     styles:
@@ -57,15 +52,13 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: AI Automation
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
+        title: up to 40%
+        subtitle: Time and resource savings
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          I handles repetitive tasks like email responses, data entry, and basic customer queries, freeing employees to focus on growth and strategy.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
@@ -88,12 +81,10 @@ sections:
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
+      - title: up to 50%
+        subtitle: Improved customer experience
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Chatbots and AI assistants provide 24/7 support and personalized interactions, increasing customer satisfaction and loyalty.
         image:
           url: /images/icon2.svg
           altText: Featured icon two
@@ -113,12 +104,10 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
+      - title: up to 30%
+        subtitle: Smarter data-driven decisions
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          AI analyzes sales trends, customer behavior, and market patterns, helping small businesses make faster, more accurate decisions.
         image:
           url: /images/icon3.svg
           altText: Featured icon three
@@ -146,13 +135,6 @@ sections:
         style: primary
         elementId: ''
         type: Button
-    badge:
-      label: This is a badge
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: Badge
     elementId: ''
     variant: three-col-grid
     colors: bg-neutral-fg-dark
