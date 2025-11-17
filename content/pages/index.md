@@ -33,7 +33,7 @@ sections:
     media:
       url: <img width="2000" height="1519" alt="image" src="https://github.com/user-attachments/assets/250a3be8-2c8d-4e7c-8f10-6b5b92d66d89" />
 
-      altText: Unblock your team boost your time to production preview
+      altText: Coravi retard
       elementId: ''
       type: ImageBlock
     badge:
