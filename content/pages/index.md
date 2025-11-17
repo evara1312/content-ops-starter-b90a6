@@ -31,7 +31,7 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: src="https://github.com/user-attachments/assets/250a3be8-2c8d-4e7c-8f10-6b5b92d66d89" />
+      url: src="[https://github.com/user-attachments/assets/250a3be8-2c8d-4e7c-8f10-6b5b92d66d89](https://www.freepik.com/free-photos-vectors/ai-data)" />
 
       altText: Coravi retard
       elementId: ''
