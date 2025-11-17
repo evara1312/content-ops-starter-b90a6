@@ -7,10 +7,9 @@ sections:
       text: Effctvly
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle:
     text: >
-      Effctvly helps companies automate routine tasks and optimize business processes using artificial intelligence. 
-      Our mission is to empower clients with faster decision-making, increased productivity, and enhanced customer experiences.
+      Effctvly helps companies automate routine tasks and optimize business processes using artificial intelligence. Our mission is to empower clients with faster decision-making, increased productivity, and enhanced customer experiences.
     actions:
       - label: Get started
         altText: ''
@@ -31,9 +30,8 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: src="[https://github.com/user-attachments/assets/250a3be8-2c8d-4e7c-8f10-6b5b92d66d89](https://www.freepik.com/free-photos-vectors/ai-data)" />
-
-      altText: Coravi retard
+      url: /images/ai-technology-microchip-background-vector-digital-transformation-concept_53876-112222.avif
+      altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
     badge:
