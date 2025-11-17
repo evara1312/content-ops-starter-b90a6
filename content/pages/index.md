@@ -146,7 +146,6 @@ sections:
           - pl-16
           - pr-16
         justifyContent: center
-subtitle:
   images:
     - url: "/images/Image 17.11.25. at 21.48.jpg"
       altText: "Empathy logo"
@@ -158,12 +157,12 @@ subtitle:
       justifyContent: center
       padding:
         - pb-16
+        - pt-16
+        - pl-16
+        - pr-16
 styles:
   self:
     classes:
-      - pt-16
-      - pl-16
-      - pr-16
 
 subtitle:
   textAlign: center
