@@ -148,7 +148,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - subtitle: Award winning enterprises trust us
+  - subtitle:
     images:
       - url: /images/Image 17.11.25. at 21.48.jpg
         altText: Empathy logo
@@ -161,10 +161,6 @@ sections:
       subtitle:
         textAlign: center
     type: ImageGallerySection
-  - posts:
-      - content/pages/blog/case-study-1.md
-      - content/pages/blog/case-study-2.md
-      - content/pages/blog/case-study-3.md
     showThumbnail: true
     showDate: true
     showAuthor: true
