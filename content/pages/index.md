@@ -163,18 +163,20 @@ subtitle:
         - pt-16
         - pl-16
         - pr-16
-    subtitle:
-      textAlign: center
-  type: ImageGallerySection
-  showThumbnail: true
-  showDate: true
-  showAuthor: true
-  variant: three-col-grid
-        justifyContent: center
-    type: FeaturedPostsSection
-    hoverEffect: move-up
-  - title: Divider
-    colors: bg-light-fg-dark
+  subtitle:
+    textAlign: center
+type: ImageGallerySection
+showThumbnail: true
+showDate: true
+showAuthor: true
+variant: three-col-grid
+styles:
+  self:
+    justifyContent: center
+- type: FeaturedPostsSection
+  hoverEffect: move-up
+  title: Divider
+  colors: bg-light-fg-dark
     styles:
       self:
         padding:
