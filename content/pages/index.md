@@ -9,7 +9,8 @@ sections:
       type: TitleBlock
     subtitle: Subtitle goes here
     text: >
-Effctvly helps companies automate routine tasks and optimize business processes using artificial intelligence. Our mission is to empower clients with faster decision-making, increased productivity, and enhanced customer experiences.
+      Effctvly helps companies automate routine tasks and optimize business processes using artificial intelligence. 
+      Our mission is to empower clients with faster decision-making, increased productivity, and enhanced customer experiences.
     actions:
       - label: Get started
         altText: ''
