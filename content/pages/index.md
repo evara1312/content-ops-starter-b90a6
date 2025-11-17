@@ -148,10 +148,10 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  subtitle:
+subtitle:
   images:
-    - url: /images/Image 17.11.25. at 21.48.jpg
-      altText: Empathy logo
+    - url: "/images/Image 17.11.25. at 21.48.jpg"
+      altText: "Empathy logo"
       type: ImageBlock
   motion: move-to-left
   colors: bg-light-fg-dark
@@ -159,10 +159,10 @@ sections:
     self:
       justifyContent: center
       padding:
-          - pb-16
-          - pt-16
-          - pl-16
-          - pr-16
+        - pb-16
+        - pt-16
+        - pl-16
+        - pr-16
     subtitle:
       textAlign: center
   type: ImageGallerySection
