@@ -4,14 +4,12 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
+      text: Effctvly
       color: text-dark
       type: TitleBlock
     subtitle: Subtitle goes here
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+    Effctvly helps companies automate routine tasks and optimize business processes using artificial intelligence. Our mission is to empower clients with faster decision-making, increased productivity, and enhanced customer experiences.
     actions:
       - label: Get started
         altText: ''
